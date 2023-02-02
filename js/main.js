@@ -188,4 +188,12 @@ console.log(pizzaArray);
 const lowerPriceArray = [sunTablets, monaPudding, nutella, doveDeodorant, alpro];
 console.log(lowerPriceArray);
 
+// opdracht 9
+
+const wrapper = document.querySelector('#wrapper');
+
+pizzaArray.forEach((element) => {
+    wrapper.innerHTML += '<div>' + element.name + '<br>' + element.description + '<br>' + element.ingredients + '</div>'
+});
+
 /* Fancy Meow Certified -=^-^=- */

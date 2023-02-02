@@ -1,0 +1,11 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 256px);
+    gap: 10px
+}
+
+#wrapper > div {
+    background: plum;
+    width: 256px;
+    height: fit-content;
+}
