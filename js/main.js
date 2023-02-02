@@ -1,3 +1,4 @@
+// opdracht 1
 const person = {
     firstName: 'olaf',
     lastName: 'krypczyk',
@@ -6,6 +7,8 @@ const person = {
     score: 3
 }
 
+
+// opdracht 2
 const koobfaceProfile = {
     userName: 'jrasb',
     title: 'Default Text',
@@ -14,6 +17,7 @@ const koobfaceProfile = {
     views: 'n views'
 }
 
+// opdarcht 3
 class Pizza {
     constructor(name, description, ingredients) {
         this.name = name;
@@ -26,6 +30,8 @@ const peperoniPizza = new Pizza('peperoni', 'mmm', 'peperoni, sauce, cheese');
 const fourCheesesPizza = new Pizza('4 cheeses', 'tasty', '4 cheeses, sauce');
 const margharitaPizza = new Pizza('margharita', 'easy peasy', 'mozzarella');
 
+
+// opdracht 4
 class Car {
     constructor(title, description, price, kilometer) {
         this.title = title;
@@ -71,6 +77,7 @@ const tesla1 = new Car(
     '24.278km'
 );
 
+// opdrach 5
 class LowerPrices {
     constructor(title, description, action, price) {
         this.title = title;
@@ -115,6 +122,8 @@ const alpro = new LowerPrices(
     0.99
 );
 
+
+// opdracht 6
 class TweakersPhones {
     constructor(screendiagonal, resolution, fiveGCapable, operatingSystem, memory, storage) {
         this.screendiagonal = screendiagonal;
@@ -135,5 +144,45 @@ const samsung1 = new TweakersPhones(
     '128GB'
 );
 
+const samsung2 = new TweakersPhones(
+    '6.1"',
+    '2340x1080',
+    true,
+    'Android 13',
+    '8GB',
+    '256GB'
+);
+
+const samsung3 = new TweakersPhones(
+    '6.8"',
+    '3088x1440',
+    true,
+    'Android 13',
+    '12GB',
+    '1TB'
+);
+
+const samsung4 = new TweakersPhones(
+    '6.8"',
+    '3080x1440',
+    true,
+    'Android 12',
+    '12GB',
+    '256GB'
+);
+
+const google1 = new TweakersPhones(
+    '6.1"',
+    '2400x1080',
+    true,
+    'Android 12',
+    '6GB',
+    '128GB'
+);
+
+// opdracht 7
+
+const pizzaArray = [peperoniPizza, fourCheesesPizza, margharitaPizza];
+console.log(pizzaArray);
 
 /* Fancy Meow Certified -=^-^=- */
