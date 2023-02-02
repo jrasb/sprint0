@@ -201,4 +201,5 @@ const cars = document.querySelector('#cars')
 lowerPriceArray.forEach((element) => {
     cars.innerHTML += '<div class="red">' + element.title + '<br>' + element.description + '<br>' + element.action + '<br>' + element.price + '</div>'
 });
+
 /* Fancy Meow Certified -=^-^=- */
