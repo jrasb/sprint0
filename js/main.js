@@ -114,4 +114,26 @@ const alpro = new LowerPrices(
     'Per stuk 99c',
     0.99
 );
+
+class TweakersPhones {
+    constructor(screendiagonal, resolution, fiveGCapable, operatingSystem, memory, storage) {
+        this.screendiagonal = screendiagonal;
+        this.resolution = resolution;
+        this.fiveGCapable = fiveGCapable;
+        this.operatingSystem = operatingSystem;
+        this.memory = memory;
+        this.storage = storage;
+    }
+}
+
+const samsung1 = new TweakersPhones(
+    '6.1"',
+    '2340x1080',
+    true,
+    'Android 12',
+    '8GB',
+    '128GB'
+);
+
+
 /* Fancy Meow Certified -=^-^=- */
