@@ -181,8 +181,11 @@ const google1 = new TweakersPhones(
 );
 
 // opdracht 7
-
 const pizzaArray = [peperoniPizza, fourCheesesPizza, margharitaPizza];
 console.log(pizzaArray);
+
+// opdracht 8
+const lowerPriceArray = [sunTablets, monaPudding, nutella, doveDeodorant, alpro];
+console.log(lowerPriceArray);
 
 /* Fancy Meow Certified -=^-^=- */
