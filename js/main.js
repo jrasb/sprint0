@@ -71,4 +71,47 @@ const tesla1 = new Car(
     '24.278km'
 );
 
+class LowerPrices {
+    constructor(title, description, action, price) {
+        this.title = title;
+        this.description = description;
+        this.action = action;
+        this.price = price;
+    }
+}
+
+const sunTablets = new LowerPrices(
+    'Sun All-in-1 vaatwastabletten',
+    'Per pak 25 wasbeurten',
+    'Per verpakking 2.49',
+    2.49
+);
+
+const monaPudding = new LowerPrices(
+    'Mona Pudding',
+    'Per bak 450 gram',
+    'Per verpakking 89c',
+    0.89
+);
+
+const nutella = new LowerPrices(
+    'Nutella winter hazelnootpasta',
+    '1 kg',
+    'Per verpakking 4.99',
+    4.99
+);
+
+const doveDeodorant = new LowerPrices(
+    'Dove deodorant',
+    'Per XXL bus 250ml',
+    'Per XXL bus 2.49',
+    2.49
+);
+
+const alpro = new LowerPrices(
+    'Alpro',
+    'Per stuk',
+    'Per stuk 99c',
+    0.99
+);
 /* Fancy Meow Certified -=^-^=- */
