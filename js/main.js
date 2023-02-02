@@ -189,11 +189,16 @@ const lowerPriceArray = [sunTablets, monaPudding, nutella, doveDeodorant, alpro]
 console.log(lowerPriceArray);
 
 // opdracht 9
-
-const wrapper = document.querySelector('#wrapper');
+const pizza = document.querySelector('#pizza');
 
 pizzaArray.forEach((element) => {
-    wrapper.innerHTML += '<div>' + element.name + '<br>' + element.description + '<br>' + element.ingredients + '</div>'
+    pizza.innerHTML += '<div class="plum">' + element.name + '<br>' + element.description + '<br>' + element.ingredients + '</div>'
 });
 
+// opdracht 10
+const cars = document.querySelector('#cars')
+
+lowerPriceArray.forEach((element) => {
+    cars.innerHTML += '<div class="red">' + element.title + '<br>' + element.description + '<br>' + element.action + '<br>' + element.price + '</div>'
+});
 /* Fancy Meow Certified -=^-^=- */

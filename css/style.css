@@ -1,11 +1,18 @@
-#wrapper {
+#pizza, #cars {
     display: grid;
     grid-template-columns: repeat(2, 256px);
     gap: 10px
 }
 
-#wrapper > div {
-    background: plum;
+#pizza > div, #cars > div {
     width: 256px;
     height: fit-content;
+}
+
+.plum {
+    background: plum;
+}
+
+.red {
+    background: red;
 }
